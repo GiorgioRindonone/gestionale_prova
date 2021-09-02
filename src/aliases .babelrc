@@ -1,0 +1,16 @@
+//? in questo file possiamo scrivere gli alias dei file in modo da non diventare scemi con rotte lunghissime
+
+{
+
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    // "@navbar": "./src/components/Nav"
+                }
+            }
+        ]
+    ]
+
+}
